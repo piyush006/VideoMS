@@ -24,7 +24,7 @@ String project;
 @BeforeMethod()
 public void setUpVideomsLogin() {
 driver = new ChromeDriver();
-System.setProperty("webdriver.chrome.driver","C:\\Users\\47Billion\\Desktop\\Driver chrome\\chromedriver_win32\\chromedriver.exe");
+System.setProperty("webdriver.chrome.driver","C:\\Users\\47Billion\\Desktop\\chrome\\chromedriver_win32\\chromedriver.exe");
 driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 driver.get("https://videoms-qa.47billion.com/");
