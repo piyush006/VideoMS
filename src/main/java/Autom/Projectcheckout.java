@@ -33,7 +33,7 @@ driver.findElement(By.xpath("//span[contains(text(),'Login')]")).click();
 driver.findElement(By.xpath("//button[contains(text(),'View Detail/Change')]")).click();
 driver.findElement(By.xpath("//body/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/button[1]")).click();
 driver.findElement(By.xpath("//input[@id='auction']")).click();
-driver.findElement(By.xpath("//input[@id='firstName']")).sendKeys("neil");
+driver.findElement(By.xpath("//input[@id='firstName']")).sendKeys("randy");
 driver.findElement(By.xpath("//button[contains(text(),'Search')]")).click();
 driver.findElement(By.xpath("//body/div[@id='root']/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/a[1]")).click();
 driver.findElement(By.xpath("//a[contains(text(),'Order Summary')]")).click();

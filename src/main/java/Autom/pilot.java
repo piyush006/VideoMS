@@ -86,11 +86,11 @@ Thread.sleep(2000);
 driver.findElement(By.xpath("//a[contains(text(),'Videos')]")).click();
 Thread.sleep(2000);
 driver.findElement(By.xpath("//body/div[@id='root']/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[3]/div[1]/button[1]")).click();
-for(int i=1;i<=50;i++) {
+for(int i=1;i<=10;i++) {
 WebElement notes = driver.findElement(By.xpath("//input[@id='noteText']"));
 notes.sendKeys("Test notest added by test user \n");
 }
-Thread.sleep(1000);
+Thread.sleep(3000);
 driver.findElement(By.xpath("//span[contains(text(),'×')]")).click();
 }
 
