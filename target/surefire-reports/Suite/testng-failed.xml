@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="Autom.Verifymarkcompletestatus">
+        <methods>
+          <include name="verifyCommentStatusBroker"/>
+          <include name="verifyCommentStatusPM"/>
+          <include name="brokerGetUrl"/>
+          <include name="setUpVideomsLogin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Autom.Verifymarkcompletestatus -->
+      <class name="Autom.Videomspmportal">
+        <methods>
+          <include name="pilotAlreadyExitcheck"/>
+          <include name="setUpVideomsLogin"/>
+          <include name="verifyProjectinassets"/>
+          <include name="inviteEditor"/>
+          <include name="invitepilot"/>
+          <include name="VerifyNameinProjectList"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Autom.Videomspmportal -->
+      <class name="Autom.Videomspmapproval">
+        <methods>
+          <include name="setUpVideomsLogin"/>
+          <include name="approveVideo"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Autom.Videomspmapproval -->
+      <class name="Autom.pilot">
+        <methods>
+          <include name="addPilotNotes"/>
+          <include name="setUpVideomsLogin"/>
+          <include name="verifyProjectInvitation"/>
+          <include name="acceptProjectInvitation"/>
+          <include name="verifynewprojectlabel"/>
+          <include name="testpilotfileupload"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Autom.pilot -->
+      <class name="Autom.Brokervideoreview">
+        <methods>
+          <include name="tearDown"/>
+          <include name="addCommentOnVideo"/>
+          <include name="setUpVideomsLogin"/>
+          <include name="verifylink"/>
+        </methods>
+      </class> <!-- Autom.Brokervideoreview -->
+      <class name="Autom.Thanksgiving">
+        <methods>
+          <include name="uploadThanksImage"/>
+          <include name="setUpVideomsLogin"/>
+          <include name="tearDown"/>
+          <include name="brokerGetUrl"/>
+        </methods>
+      </class> <!-- Autom.Thanksgiving -->
+      <class name="Autom.Editor">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUpVideomsLogin"/>
+          <include name="verifyActiveProject"/>
+          <include name="projectInAssset"/>
+          <include name="uploadVideo"/>
+          <include name="acceptInvitation"/>
+        </methods>
+      </class> <!-- Autom.Editor -->
+      <class name="Autom.Reviewcomment">
+        <methods>
+          <include name="setUpVideomsLogin"/>
+          <include name="tearDown"/>
+          <include name="approveComments"/>
+        </methods>
+      </class> <!-- Autom.Reviewcomment -->
+      <class name="Autom.Editormarkcomplete">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUpVideomsLogin"/>
+          <include name="Markallcomplete"/>
+        </methods>
+      </class> <!-- Autom.Editormarkcomplete -->
+      <class name="Autom.Projectcheckout">
+        <methods>
+          <include name="setUpVideomsLogin"/>
+          <include name="tearDown"/>
+          <include name="checkout"/>
+        </methods>
+      </class> <!-- Autom.Projectcheckout -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
