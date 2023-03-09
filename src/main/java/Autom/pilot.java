@@ -84,7 +84,7 @@ driver.findElement(By.xpath("//input[@id='password']")).sendKeys("681993@Virat")
 driver.findElement(By.xpath("//span[contains(text(),'Login')]")).click();		
 Thread.sleep(2000);
 driver.findElement(By.xpath("//a[contains(text(),'Videos')]")).click();
-Thread.sleep(2000);
+Thread.sleep(4000);
 driver.findElement(By.xpath("//body/div[@id='root']/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[3]/div[1]/button[1]")).click();
 for(int i=1;i<=10;i++) {
 WebElement notes = driver.findElement(By.xpath("//input[@id='noteText']"));
@@ -104,7 +104,7 @@ driver.findElement(By.xpath("//input[@id='password']")).sendKeys("681993@Virat")
 driver.findElement(By.xpath("//span[contains(text(),'Login')]")).click();
 Thread.sleep(2000);
 driver.findElement(By.xpath("//a[contains(text(),'Videos')]")).click();
-
+Thread.sleep(3000);
 driver.findElement(By.xpath("//body/div[@id='root']/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[3]/div[2]/button[1]")).click();
 driver.findElement(By.xpath("//body/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/input[1]")).sendKeys("C:\\Users\\47Billion\\Desktop\\Sample Image\\ZX-86 Highway 15 and County Rd,Greenville,WI_Video Drafts_Draft-1_asset_1.mp4");
 Thread.sleep(19000);

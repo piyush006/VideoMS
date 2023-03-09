@@ -54,7 +54,7 @@ Thread.sleep(2000);
 driver.findElement(By.xpath("//body/div[@id='root']/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[2]")).click();
 Thread.sleep(2000);
 driver.findElement(By.xpath("//strong[contains(text(),'"+project+"')]")).click();
-Thread.sleep(2000);	
+Thread.sleep(4000);	
 driver.findElement(By.xpath("//table[@id='Aerial_Maps_-_Version_1']/tbody/tr/td[2]/span/a")).click();
 Thread.sleep(4000);	
 ArrayList<String> wid = new ArrayList<String>(driver.getWindowHandles());
