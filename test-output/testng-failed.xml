@@ -3,16 +3,6 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Autom.Toverifylatestcomment">
-        <methods>
-          <include name="verifyLatestCommentPM"/>
-          <include name="VerifyLatestCommentAddedByPM"/>
-          <include name="vefiryPilotDetailsLatestcomment"/>
-          <include name="setUpVideomsLogin"/>
-          <include name="tearDown"/>
-          <include name="VerifyPMcommentONPilotPortal"/>
-        </methods>
-      </class> <!-- Autom.Toverifylatestcomment -->
       <class name="Autom.Verifymarkcompletestatus">
         <methods>
           <include name="verifyCommentStatusPM"/>
@@ -22,51 +12,6 @@
           <include name="verifyCommentStatusBroker"/>
         </methods>
       </class> <!-- Autom.Verifymarkcompletestatus -->
-      <class name="Autom.Brokervideoreview">
-        <methods>
-          <include name="addCommentOnVideo"/>
-          <include name="tearDown"/>
-          <include name="verifylink"/>
-          <include name="setUpVideomsLogin"/>
-        </methods>
-      </class> <!-- Autom.Brokervideoreview -->
-      <class name="Autom.Videomspmportal">
-        <methods>
-          <include name="inviteEditor"/>
-          <include name="verifyProjectinassets"/>
-          <include name="invitepilot"/>
-          <include name="setUpVideomsLogin"/>
-          <include name="pilotAlreadyExitcheck"/>
-          <include name="tearDown"/>
-          <include name="VerifyNameinProjectList"/>
-        </methods>
-      </class> <!-- Autom.Videomspmportal -->
-      <class name="Autom.Projectcheckout">
-        <methods>
-          <include name="setUpVideomsLogin"/>
-          <include name="tearDown"/>
-          <include name="checkout"/>
-        </methods>
-      </class> <!-- Autom.Projectcheckout -->
-      <class name="Autom.Thanksgiving">
-        <methods>
-          <include name="uploadThanksImage"/>
-          <include name="setUpVideomsLogin"/>
-          <include name="tearDown"/>
-          <include name="brokerGetUrl"/>
-        </methods>
-      </class> <!-- Autom.Thanksgiving -->
-      <class name="Autom.pilot">
-        <methods>
-          <include name="addPilotNotes"/>
-          <include name="verifyProjectInvitation"/>
-          <include name="acceptProjectInvitation"/>
-          <include name="testpilotfileupload"/>
-          <include name="tearDown"/>
-          <include name="setUpVideomsLogin"/>
-          <include name="verifynewprojectlabel"/>
-        </methods>
-      </class> <!-- Autom.pilot -->
       <class name="Autom.Editormarkcomplete">
         <methods>
           <include name="Markallcomplete"/>
@@ -74,30 +19,6 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- Autom.Editormarkcomplete -->
-      <class name="Autom.Reviewcomment">
-        <methods>
-          <include name="setUpVideomsLogin"/>
-          <include name="approveComments"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Autom.Reviewcomment -->
-      <class name="Autom.Editor">
-        <methods>
-          <include name="tearDown"/>
-          <include name="uploadVideo"/>
-          <include name="verifyActiveProject"/>
-          <include name="acceptInvitation"/>
-          <include name="setUpVideomsLogin"/>
-          <include name="projectInAssset"/>
-        </methods>
-      </class> <!-- Autom.Editor -->
-      <class name="Autom.Videomspmapproval">
-        <methods>
-          <include name="approveVideo"/>
-          <include name="tearDown"/>
-          <include name="setUpVideomsLogin"/>
-        </methods>
-      </class> <!-- Autom.Videomspmapproval -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -25,7 +25,7 @@ public class Toverifylatestcomment extends Setup{
 	WebElement notes = driver.findElement(By.xpath("//input[@id='noteText']"));
 	notes.sendKeys("Latest comment added by pilot\n");
 	Thread.sleep(1000);
-	driver.findElement(By.xpath("//span[contains(text(),'×')]")).click();
+	driver.findElement(By.xpath("//button[@class='close']")).click();
 	Thread.sleep(1000);
 	driver.findElement(By.xpath("//a[contains(text(),'Project Detail')]")).click();
 	Thread.sleep(1000);
