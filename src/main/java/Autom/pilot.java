@@ -91,7 +91,7 @@ WebElement notes = driver.findElement(By.xpath("//input[@id='noteText']"));
 notes.sendKeys("Test notest added by test user \n");
 }
 Thread.sleep(3000);
-driver.findElement(By.xpath("//span[contains(text(),'×')]")).click();
+driver.findElement(By.xpath("//button[@class='close']")).click();
 }
 
 
