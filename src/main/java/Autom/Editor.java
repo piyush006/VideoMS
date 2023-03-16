@@ -87,8 +87,10 @@ driver.findElement(By.xpath("//body/div[@id='root']/div[1]/div[1]/div[1]/div[2]/
 driver.findElement(By.xpath("//body/div[@id='root']/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[6]/div[4]/a[1]/div[1]/div[1]/span[1]")).click();	
 driver.findElement(By.xpath("//button[contains(text(),'Upload')]")).click();
 driver.findElement(By.xpath("//body/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/input[1]")).sendKeys("C:\\Users\\47Billion\\Desktop\\Sample Image\\ZX-86 Highway 15 and County Rd,Greenville,WI_Video Drafts_Draft-1_asset_1.mp4");
-Thread.sleep(30000);	
+Thread.sleep(30000);
+
 }
+
 
 
 
